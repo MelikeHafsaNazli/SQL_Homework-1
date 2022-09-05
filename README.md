@@ -1,5 +1,7 @@
 # SQL_Homework-1
 
+Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+
 1. film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
 
         select title, description from film;
@@ -20,4 +22,4 @@
 
         select * from film WHERE (length <= 50) and (rental_rate !=2.99 or rental_rate!=4.99);
         
-## Patika.dev linki: https://app.patika.dev/melikehafsa
+### Patika.dev linki: https://app.patika.dev/melikehafsa
